@@ -1,17 +1,16 @@
 import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/constants/projects";
-import Head from 'next/head'
+
+export const metadata = {
+  title: "Harmonie Durrant - Projects",
+  description: "Harmonie Durrant - Software Engineer and web developer",
+}
 
 export default function ProjectsPage() {
 
   return (
     <>
-      <Head>
-        <title>Harmonie Durrant - Projects</title>
-        <meta name="description" content="Harmonie Durrant - Software Engineer and web developer" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Hero
         title="Projects"
         description="Scroll to see a list of all my projects, personal and professional."

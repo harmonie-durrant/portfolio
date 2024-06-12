@@ -1,15 +1,13 @@
 import Hero from "@/components/Hero";
-import Head from 'next/head'
+
+export const metadata = {
+  title: "Harmonie Durrant - About",
+  description: "Harmonie Durrant - Software Engineer and web developer",
+}
 
 export default function AboutPage() {
-
   return (
     <>
-      <Head>
-        <title>Harmonie Durrant - About</title>
-        <meta name="description" content="Harmonie Durrant - Software Engineer and web developer" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Hero
         title="About Me"
         description="Scroll to see more about my personal and professional life!"
