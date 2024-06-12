@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Head from 'next/head'
 
 export default function Home() {
 
@@ -14,6 +15,11 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Harmonie Durrant</title>
+        <meta name="description" content="Harmonie Durrant - Software Engineer and web developer" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Hero title={title} description={description} />
     </>
   );
