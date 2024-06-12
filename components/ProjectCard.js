@@ -11,7 +11,7 @@ export default function ProjectCard({ project_data }) {
                 </p>
                 <div class="card-actions">
                     {
-                        project_data.buttons.map((i, button) => (
+                        project_data.buttons.map((button, i) => (
                             <a href={button.link} key={i}>
                                 <button class="btn btn-primary">
                                     {button.name}
