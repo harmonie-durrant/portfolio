@@ -15,6 +15,21 @@ export const projects = [
         ]
     },
     {
+        image: "projects/my-linktree.png",
+        title: "My Linktree",
+        description: "This is my own recreation of the popular tool called LinkTree. It groups links to all of my socials and usefull content.",
+        buttons: [
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/my-link-in-bio"
+            },
+            {
+                name: "Visit Site",
+                link: "https://links.harmoniedurrant.com"
+            }
+        ]
+    },
+    {
         image: "projects/ash-aldeburgh.png",
         title: "Ash Smoked Fishes",
         description: "I made a site for my GrandFather using NextJS and Tailwind CSS. It's a site for a fish smoking company. The backend uses Firebase.",
