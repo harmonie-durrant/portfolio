@@ -9,6 +9,9 @@ function NavLinks() {
             <li>
                 <a href="/about">About Me</a>
             </li>
+            <li>
+                <a href="https://links.harmoniedurrant.com">More Links</a>
+            </li>
         </>
     )
 }
