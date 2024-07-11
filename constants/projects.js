@@ -111,6 +111,10 @@ export const projects = [
         {
             name: "GitHub",
             link: "https://github.com/harmonie-durrant/clickn-circles"
+        },
+        {
+            name: "itch.io",
+            link: "https://harmonie-durrant.itch.io/clickn-circles"
         }
         ]
     }
