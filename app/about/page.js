@@ -36,8 +36,8 @@ export default function AboutPage() {
                         <>
                           <div class="text-lg font-black">Tools used:</div>
                           {
-                            event.skills.map((skill) => (
-                                <div class="badge badge-primary badge-outline mr-2">{skill}</div>
+                            event.skills.map((skill, i) => (
+                                <div key={(i+1)*2500} class="badge badge-primary badge-outline mr-2">{skill}</div>
                             ))
                           }
                         </>
@@ -63,8 +63,8 @@ export default function AboutPage() {
                         <>
                           <div class="text-lg font-black">Tools used:</div>
                           {
-                            event.skills.map((skill) => (
-                                <div class="badge badge-primary badge-outline mr-2">{skill}</div>
+                            event.skills.map((skill, i) => (
+                                <div key={(i+1)*2500} class="badge badge-primary badge-outline mr-2">{skill}</div>
                             ))
                           }
                         </>
