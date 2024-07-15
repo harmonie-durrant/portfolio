@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Hero({ title, description, scroll_id}) {
     return (
@@ -12,8 +13,14 @@ export default function Hero({ title, description, scroll_id}) {
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content w-screen flex-col content-evenly justify-evenly lg:flex-row-reverse">
                     <div class="avatar">
-                        <div class="w-auto max-w-56 lg:max-w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                        <img src="/harmonie.jpg" />
+                        <div class="w-full max-w-56 lg:max-w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <Image
+                                src="/harmonie.jpg"
+                                alt="Harmonie Durrant Image"
+                                width={0} height={0}
+                                sizes="100vw"
+                                style={{ width: '100%', height: 'auto' }}
+                            />
                         </div>
                     </div>
                     <div>
