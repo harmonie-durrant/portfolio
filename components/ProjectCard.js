@@ -1,8 +1,15 @@
+import Image from "next/image";
+
 export default function ProjectCard({ project_data }) {
     return (
         <div class="card bordered shadow-lg">
             <figure>
-                <img src={project_data.image} className="h-64 object-fill aspect-video" />
+                <Image
+                    src={project_data.image}
+                    width={0} height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">{project_data.title}</h2>
