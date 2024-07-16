@@ -15,6 +15,17 @@ export const projects = [
         ]
     },
     {
+        image: "/projects/harmonie-games.png",
+        title: "Harmonie's Games",
+        description: "A site I made to showcase my games.",
+        buttons: [
+            {
+                name: "Visit Site",
+                link: "https://games.harmoniedurrant.com"
+            }
+        ]
+    },
+    {
         image: "/projects/my-linktree.png",
         title: "My Linktree",
         description: "This is my own recreation of the popular tool called LinkTree. It groups links to all of my socials and usefull content.",
