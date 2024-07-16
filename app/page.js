@@ -1,4 +1,6 @@
 import Hero from "@/components/Hero";
+import ProjectSlider from "@/components/ProjectSlider";
+import { projects } from "@/constants/projects";
 
 export const metadata = {
   title: "Harmonie Durrant",
@@ -20,7 +22,15 @@ export default function Home() {
 
   return (
     <>
-      <Hero title={title} description={description} />
+      <Hero
+        title={title}
+        description={description}
+        scroll_id="#page"
+      />
+      <div id="page" class="flex flex-col justify-center items-center text-center">
+        <h2 class="text-3xl font-bold text-center mt-10 mb-4">Highlighted Projects</h2>
+        <ProjectSlider project_data={projects} number={3} />
+      </div>
     </>
   );
 }
