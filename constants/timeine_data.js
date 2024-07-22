@@ -12,19 +12,19 @@ export const timeine_data = [
         "skils": []
     },
     {
-        "data": "July 2022- June 2023",
+        "date": "July 2022- June 2023",
         "title": "Epitech - Toulouse (Graduated High School)",
         "description": "I graduated from High school and was accepted to Epitech Toulouse to study Computer Science.",
         "skils": ["UNIX", "C", "Python", "Git(Hub)", "Docker", "GitHub Actions", "VirtualBox", "Unity (C#)", "React.JS", "REST API", "JWT"]
     },
     {
-        "data": "July 2023 - Now",
+        "date": "July 2023 - Now",
         "title": "42 Perpignan",
         "description": "I was accepted to 42 Perpignan and studied there for a year learning C and C++.",
         "skils": ["C", "C++", "Git", "UNIX / Linux", "VirtualBox"]
     },
     {
-        "data": "August 2024 - Now",
+        "date": "August 2024 - Now",
         "title": "IMERIR Perpignan",
         "description": "I got accepted to study in the IMERIR alternance program in Perpignan, studying Computer Science, AI, IOT and Robotics. (Bac +2 -> Bac +5)",
         "skils": []
