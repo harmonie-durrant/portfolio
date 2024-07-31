@@ -17,8 +17,8 @@ export default function ProjectsPage() {
         description="Scroll to see a list of all my projects, personal and professional."
         scroll_id="#projects"
       />
-      <div class="flex align-middle items-center justify-center">
-        <div id="projects" class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 w-[80VW] md:w-auto max-w-[1500px]">
+      <div className="flex align-middle items-center justify-center">
+        <div id="projects" className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 w-[80VW] md:w-auto max-w-[1500px]">
           {
             projects.map((project) => (
               <ProjectCard key={project.title} project_data={project} />
