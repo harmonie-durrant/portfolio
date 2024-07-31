@@ -5,7 +5,7 @@ export default function ProjectCard({ project_data, img}) {
         img = true
     }
     return (
-        <div class="card bordered shadow-lg">
+        <div className="card bordered shadow-lg">
             {
                 img &&
                 <figure>
@@ -17,16 +17,16 @@ export default function ProjectCard({ project_data, img}) {
                     />
                 </figure>
             }
-            <div class="card-body">
-                <h2 class="card-title">{project_data.title}</h2>
-                <p class="text-left">
+            <div className="card-body">
+                <h2 className="card-title">{project_data.title}</h2>
+                <p className="text-left">
                     {project_data.description}
                 </p>
-                <div class="card-actions">
+                <div className="card-actions">
                     {
                         project_data.buttons.map((button, i) => (
                             <a href={button.link} key={i}>
-                                <button class="btn btn-primary">
+                                <button className="btn btn-primary">
                                     {button.name}
                                 </button>
                             </a>

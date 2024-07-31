@@ -14,9 +14,9 @@ export default function Home() {
 
   const description = (
       <>
-        A student at 42Perpignan
+        Student, accepted to IMERIR and studied at 42 and Epitech.
         <br />
-        Software Engineer and web developer
+        Looking for an apprenticeship contract in software development with IMERIR.
       </>
     );
 
@@ -27,8 +27,8 @@ export default function Home() {
         description={description}
         scroll_id="#page"
       />
-      <div id="page" class="flex flex-col justify-center items-center text-center">
-        <h2 class="text-3xl font-bold text-center mt-10 mb-4">Highlighted Projects</h2>
+      <div id="page" className="flex flex-col justify-center items-center text-center">
+        <h2 className="text-3xl font-bold text-center mt-10 mb-4">Highlighted Projects</h2>
         <ProjectSlider project_data={projects} number={3} />
       </div>
     </>

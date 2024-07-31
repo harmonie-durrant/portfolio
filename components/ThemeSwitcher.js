@@ -41,7 +41,7 @@ export default function ThemeSwitcher() {
                     {
                         themeValues.map((theme, index) => {
                             return (
-                                <div key={index} className="outline-base-content overflow-hidden rounded-lg outline-2 outline-offset-2 outline transition ease-in-out hover:scale-105" data-set-theme={theme} data-act-className="outline">
+                                <div key={index} className="outline-base-content overflow-hidden rounded-lg outline-2 outline-offset-2 outline transition ease-in-out hover:scale-105" data-set-theme={theme} data-act-classname="outline">
                                     <div data-theme={theme} className="bg-base-100 text-base-content w-full cursor-pointer font-sans">
                                         <div className="grid grid-cols-5 grid-rows-3">
                                             <div className="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
