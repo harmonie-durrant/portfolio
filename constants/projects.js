@@ -1,5 +1,27 @@
 export const projects = [
     {
+        image: "/projects/cpp42.png",
+        title: "Pool C++ - 42",
+        description: "A project I made at 42 school. The goal was to learn C++ (CPP) in a similar way to the piscine with lots of modules that get progressively harder.",
+        buttons: [
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/CPP-Projects-42"
+            }
+        ]
+    },
+    {
+        image: "/projects/minishell42.png",
+        title: "Minishell - 42",
+        description: "A project I made at 42 school. The goal was to recreate a shell with some built-in functions. I made a shell that can handle pipes, redirections, signals, and more.",
+        buttons: [
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/minishell-42"
+            }
+        ]
+    },
+    {
         image: "/projects/wiki42.png",
         title: "Wiki42",
         description: "I made a site to help other students at 42school to find resources and information about the school. The site is made with NextJS and Tailwind CSS and uses nextra for mdx parsing and organising.",
