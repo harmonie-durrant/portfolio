@@ -8,7 +8,8 @@ export const projects = [
                 name: "GitHub",
                 link: "https://github.com/harmonie-durrant/CPP-Projects-42"
             }
-        ]
+        ],
+        tech_stack: ["C++", "Makefile"]
     },
     {
         image: "/projects/minishell42.png",
@@ -19,7 +20,8 @@ export const projects = [
                 name: "GitHub",
                 link: "https://github.com/harmonie-durrant/minishell-42"
             }
-        ]
+        ],
+        tech_stack: ["C", "Linux", "Bash", "Makefile"]
     },
     {
         image: "/projects/wiki42.png",
@@ -34,7 +36,8 @@ export const projects = [
                 name: "Visit Site",
                 link: "https://wiki42.harmoniedurrant.com"
             }
-        ]
+        ],
+        tech_stack: ["Markdown", "NextJS", "Tailwind CSS", "Nextra"]
     },
     {
         image: "/projects/harmonie-games.png",
@@ -45,7 +48,8 @@ export const projects = [
                 name: "Visit Site",
                 link: "https://games.harmoniedurrant.com"
             }
-        ]
+        ],
+        tech_stack: ["React", "NextJS", "Tailwind CSS"]
     },
     {
         image: "/projects/my-linktree.png",
@@ -60,7 +64,8 @@ export const projects = [
                 name: "Visit Site",
                 link: "https://links.harmoniedurrant.com"
             }
-        ]
+        ],
+        tech_stack: ["React", "NextJS", "Tailwind CSS", "ThreeJS"]
     },
     {
         image: "/projects/ash-aldeburgh.png",
@@ -71,7 +76,8 @@ export const projects = [
                 name: "Visit Site",
                 link: "https://www.ashsmokedfishes.co.uk/"
             }
-        ]
+        ],
+        tech_stack: ["React", "NextJS", "Tailwind CSS", "Firebase"]
     },
     {
         image: "/projects/corewar.png",
@@ -82,7 +88,8 @@ export const projects = [
                 name: "GitHub",
                 link: "https://github.com/harmonie-durrant/corewar"
             }
-        ]
+        ],
+        tech_stack: ["C", "GitHub Actions", "Makefile"]
     },
     {
         image: "/projects/epytodo.png",
@@ -93,7 +100,8 @@ export const projects = [
                 name: "GitHub",
                 link: "https://github.com/harmonie-durrant/epytodo"
             }
-        ]
+        ],
+        tech_stack: ["React", "NextJS", "SQL", "JWT", "NodeJS", "Express", "Docker"]
     },
     {
         image: "/projects/my-rpg.png",
@@ -104,7 +112,8 @@ export const projects = [
                 name: "GitHub",
                 link: "https://github.com/harmonie-durrant/myrpg"
             }
-        ]
+        ],
+        tech_stack: ["C", "CSFML", "Makefile"]
     },
     {
         image: "/projects/sudo-quest.png",
@@ -119,36 +128,39 @@ export const projects = [
                 name: "itch.io",
                 link: "https://harmonie-durrant.itch.io/sudo-quest"
             }
-        ]
+        ],
+        tech_stack: ["Unity", "C#"]
     },
     {
         image: "/projects/my-hunter.png",
         title: "My Hunter - Epitech",
         description: "A first year project at Epitech Technology. The task was to recreate the game Duck Hunt using the CSFML library for C. I went further and made 3 different themes for the game.",
         buttons: [
-        {
-            name: "GitHub",
-            link: "https://github.com/harmonie-durrant/my-hunter"
-        }
-        ]
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/my-hunter"
+            }
+        ],
+        tech_stack: ["C", "CSFML"]
     },
     {
         image: "/projects/clickn-circles.jpg",
         title: "Clickn' Circles",
         description: "A game I made in pygame, and then again in Unity. A game to click circles. Don't press the red one, run the timed trials and see how many you can click in the time frame!",
         buttons: [
-        {
-            name: "Free Download (Google Play)",
-            link: "https://play.google.com/store/apps/details?id=com.ReubanBryenton.ClicknCircles"
-        },
-        {
-            name: "GitHub",
-            link: "https://github.com/harmonie-durrant/clickn-circles"
-        },
-        {
-            name: "itch.io",
-            link: "https://harmonie-durrant.itch.io/clickn-circles"
-        }
-        ]
+            {
+                name: "Free Download (Google Play)",
+                link: "https://play.google.com/store/apps/details?id=com.ReubanBryenton.ClicknCircles"
+            },
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/clickn-circles"
+            },
+            {
+                name: "itch.io",
+                link: "https://harmonie-durrant.itch.io/clickn-circles"
+            }
+        ],
+        tech_stack: ["Unity", "C#", "Pygame", "Python"]
     }
 ];

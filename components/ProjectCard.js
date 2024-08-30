@@ -22,6 +22,18 @@ export default function ProjectCard({ project_data, img}) {
                 <p className="text-left">
                     {project_data.description}
                 </p>
+                {
+                    project_data.tech_stack &&
+                    <div className="flex flex-wrap gap-2">
+                        {
+                            project_data.tech_stack.map((tech, i) => (
+                                <span key={i} className="badge badge-secondary">
+                                    {tech}
+                                </span>
+                            ))
+                        }
+                    </div>
+                }
                 <div className="card-actions">
                     {
                         project_data.buttons.map((button, i) => (

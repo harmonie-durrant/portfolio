@@ -18,7 +18,7 @@ export default function ProjectsPage() {
         scroll_id="#projects"
       />
       <div className="flex align-middle items-center justify-center">
-        <div id="projects" className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 w-[80VW] md:w-auto max-w-[1500px]">
+        <div id="projects" className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 w-[80VW] md:w-auto max-w-[1500px]">
           {
             projects.map((project) => (
               <ProjectCard key={project.title} project_data={project} />

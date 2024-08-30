@@ -9,7 +9,8 @@ This is my website to showcase my projects and my talents to the world.
 To deploy this project run
 
 ```bash
-  npm run deploy
+  npm run build
+  npm run start
 ```
 
 ## Docker Deployment
