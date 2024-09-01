@@ -14,9 +14,9 @@ export default function Home() {
 
   const description = (
       <>
-        Student, accepted to IMERIR and studied at 42 and Epitech.
+        Student at 42 learning C/C++.
         <br />
-        Looking for an apprenticeship contract in software development with IMERIR.
+        Motivated to learn and grow, passionate about web development and game development.
       </>
     );
 

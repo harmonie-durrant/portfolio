@@ -1,5 +1,17 @@
 export const projects = [
     {
+        image: "/projects/cub3d42.png",
+        title: "CUB3D - 42",
+        description: "A project I made at 42 school. The goal was to recreate a 3D game using the minilibx library and ray tracing methods.",
+        buttons: [
+            {
+                name: "GitHub",
+                link: "https://github.com/harmonie-durrant/CPP-Projects-42"
+            }
+        ],
+        tech_stack: ["C", "Makefile", "Raycasting", "Minilibx"]
+    },
+    {
         image: "/projects/cpp42.png",
         title: "Pool C++ - 42",
         description: "A project I made at 42 school. The goal was to learn C++ (CPP) in a similar way to the piscine with lots of modules that get progressively harder.",
@@ -38,18 +50,6 @@ export const projects = [
             }
         ],
         tech_stack: ["Markdown", "NextJS", "Tailwind CSS", "Nextra"]
-    },
-    {
-        image: "/projects/harmonie-games.png",
-        title: "Harmonie's Games",
-        description: "A site I made to showcase my games.",
-        buttons: [
-            {
-                name: "Visit Site",
-                link: "https://games.harmoniedurrant.com"
-            }
-        ],
-        tech_stack: ["React", "NextJS", "Tailwind CSS"]
     },
     {
         image: "/projects/my-linktree.png",
