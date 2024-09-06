@@ -12,6 +12,18 @@ export const timeine_data = [
         "skils": []
     },
     {
+        "date": "2020",
+        "title": "Covid Motivation",
+        "description": "I started editing property videos for virtual viewings to take place during lockdown. This was my first experience with video editing and I loved it. I have carried this in a lighter capacity for the last 3 years focusing on social media, search @belvoiripswich.",
+        "skils": ["Davinici Resolve", "Vodeo Effects", "Video Editing"]
+    },
+    {
+        "date": "2021",
+        "title": "Discovering React",
+        "description": "Discovering React was a game changer for me because it enabled me to create better websites and applications. I have since been learning more about React and have created professional projects with it.",
+        "skils": ["React.JS", "JavaScript", "HTML", "CSS", "TailwindCSS", "NextJS"]
+    },
+    {
         "date": "July 2022- June 2023",
         "title": "Epitech - Toulouse",
         "description": "I graduated from High school and was accepted to Epitech Toulouse to study Computer Science.",
